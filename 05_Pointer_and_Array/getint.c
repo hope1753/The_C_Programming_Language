@@ -22,7 +22,7 @@ int getint(int *pn) {
     } 
 
     *pn *= sign;
-    printf("check2 : %d\n", c);
+    printf("check2 : %d\n", c);         
     if (c != EOF) {
         ungetc(c, stdin);
     }
